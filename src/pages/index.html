@@ -2,15 +2,21 @@
 layout: index
 meta-title: Index
 ---
-<div class="grid-x">
+
+<div class="grid-container full">
+	<div class="grid-x">
 	<div class="cell hide-for-large">
-		<div class="title-bar" style="width:100%">
-			<button class="menu-icon dark" type="button" data-open="offCanvas"></button>
-			<a href="index.html">Bölden</a>
+		<div class="title-bar"
+			<button class="menu-icon" type="button" data-open="offCanvas"></button>
+			<span class="title-bar-title">Bölden</span>
 		</div>
 	</div>
-	<div class="off-canvas position-left in-canvas-for-large cell large-4" id="offCanvas" data-off-canvas data-transition="push" style="background-color: #f46524;">
-		<ul class="vertical menu" style="height: 100%;">
+	</div>
+</div>
+<div class="grid-container full">
+<div class="grid-x grid-padding-x">
+	<div class="off-canvas position-left in-canvas-for-large cell large-2" id="offCanvas" data-off-canvas data-transition="push" style="background-color: #f46524;">
+		<ul class="vertical menu">
 			<li><a href="borg.teknolog.fi/cgi-bin/bolden.cgi">Bokning</a></li>
 			<li><a href="ordningsregler.html">Ordningsregler</a></li>
 			<li><a href="maskinerochverktyg.html">Maskiner och Verktyg</a></li>
@@ -19,8 +25,8 @@ meta-title: Index
 			<li><a href="stadguide.html">Städguide</a></li>
 		</ul>
 	</div>
-	<div class="off-canvas-content cell large-8" data-off-canvas-content>
-
+	<div class="off-canvas-content cell large-10" data-off-canvas-content>
+		<div class="solid-bar"></div>
 		<p>Välkommen till Böldens webbportal! Här finns all information rörande bölden, dess bokning och funktion.</p>
 		<h1>Bokningskrav</h1>
 		<p>För att kunna boka och använda Bölden skall följande krav fullföljas:
@@ -32,6 +38,5 @@ meta-title: Index
 		<p>Halvfärdiga projekt får förvaras på hyllorna i hörnet i två veckor, vartefter Bödlarna har rätt att kasta dessa. Varje person får använda ett hyllområde, och området skall märkas med en bit målartejp, från vilken det framgår projektets ägare samt datum som sakerna lagts på hyllan.</p>
 		<div class="solid-bar"></div>
 	</div>
-
 </div>
-
+</div>
