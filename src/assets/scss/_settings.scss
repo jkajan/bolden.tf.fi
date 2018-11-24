@@ -84,6 +84,7 @@ $dark-gray: #8a8a8a;
 $black: #0a0a0a;
 $white: #fefefe;
 $orange: #f46524;
+$l_orange: #ffdd6d;
 $body-background: $white;
 $body-font-color: $black;
 $body-font-family: 'Lato', sans-serif;
@@ -144,7 +145,7 @@ $header-margin-bottom: 0.5rem;
 $header-styles: (
   small: (
     'h1': ('font-size': 24),
-    'h2': ('font-size': 20),
+    'h2': ('font-size': 19),
     'h3': ('font-size': 19),
     'h4': ('font-size': 18),
     'h5': ('font-size': 17),
@@ -152,7 +153,7 @@ $header-styles: (
   ),
   medium: (
     'h1': ('font-size': 40),
-    'h2': ('font-size': 40),
+    'h2': ('font-size': 31),
     'h3': ('font-size': 31),
     'h4': ('font-size': 25),
     'h5': ('font-size': 20),
@@ -172,7 +173,7 @@ $code-background: $light-gray;
 $code-border: 1px solid $medium-gray;
 $code-padding: rem-calc(2 5 1);
 $anchor-color: $white;
-$anchor-color-hover: scale-color($anchor-color, $lightness: -14%);
+$anchor-color-hover: $l_orange;
 $anchor-text-decoration: none;
 $anchor-text-decoration-hover: underline;
 $hr-width: $global-width;
@@ -476,10 +477,10 @@ $menu-margin: 0;
 $menu-nested-margin: $global-menu-nested-margin;
 $menu-items-padding: $global-menu-padding;
 $menu-simple-margin: 1rem;
-$menu-item-color-active: $light-gray;
+$menu-item-color-active: $l_orange;
 $menu-item-background-active: $orange;
 $menu-icon-spacing: 0.25rem;
-$menu-item-background-hover: $light-gray;
+$menu-item-background-hover: $l_orange;
 $menu-state-back-compat: true;
 $menu-centered-back-compat: true;
 $menu-icons-back-compat: true;
@@ -825,11 +826,11 @@ $thumbnail-radius: $global-radius;
 // -------------
 
 $titlebar-background: $orange;
-$titlebar-color: $orange;
+$titlebar-color: $white;
 $titlebar-padding: 0.5rem;
 $titlebar-text-font-weight: bold;
 $titlebar-icon-color: $white;
-$titlebar-icon-color-hover: $medium-gray;
+$titlebar-icon-color-hover: $l_orange;
 $titlebar-icon-spacing: 0.25rem;
 
 // 54. Tooltip
