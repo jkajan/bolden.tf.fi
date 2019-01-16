@@ -24,6 +24,7 @@ meta-title: Index
 				<li><a href="bandsag.html">Bandsåg</a></li> 
 				<li><a href="bordcirkelsag.html">Bordcirkelsåg</a></li> 
 				<li><a href="rikthyvelplanhyvel.html">Rikthyvel/Planhyvel</a></li> 
+				<li><a href="spansug.html">Spånsug</a></li> 
 				<li><a href="pelarborrmaskin.html">Pelarborrmaskin</a></li> 
 			</ul>
 			<li><a href="bodlarna.html">Bödlarna</a></li>
@@ -34,53 +35,57 @@ meta-title: Index
 	<div class="off-canvas-content cell large-10" data-off-canvas-content>
 		<h1>Galleri</h1>
 		<p>Här nedanför finns ett bildgalleri med projekt som byggts i Bölden. Om ni behöver inspiration så titta igenom! Om ni har byggt någonting ni är stolta över så får ni mycket gärna skicka bilder av det till bodel@teknolog.fi med en kort beskrivning så sätter vi det i bildspelet!</p>
-		<div class="orbit" role="region" aria-label="Projektgalleri" data-orbit data-use-m-u-i="true">
-			<div class="orbit-wrapper">
-				<div class="orbit-controls">
-				<button class="orbit-previous"><span class="show-for-sr">Previous Slide</span>&#9664;&#xFE0E;</button>
-				<button class="orbit-next"><span class="show-for-sr">Next Slide</span>&#9654;&#xFE0E;</button>
+		<div class="grid-container">
+			<div class="grid-x grid-padding-x">
+				<div class="cell">
+					<div class="orbit" role="region" aria-label="Projektgalleri" data-orbit data-use-m-u-i="true">
+						<div class="orbit-wrapper">
+							<div class="orbit-controls">
+							<button class="orbit-previous"><span class="show-for-sr">Bakåt</span>&#9664;&#xFE0E;</button>
+							<button class="orbit-next"><span class="show-for-sr">Framåt</span>&#9654;&#xFE0E;</button>
+						</div>
+						<ul class="orbit-container">
+							<li class="is-active orbit-slide">
+								<figure class="orbit-figure">
+								<img class="orbit-image projektbild" src="assets/img/projekt/henrik_hillner.jpg" alt="Pajkatapult">
+								<figcaption class="orbit-caption">Pajkatapult - <i>Henrik Hillner</i></figcaption>
+								</figure>
+							</li>
+							<li class="orbit-slide">
+								<figure class="orbit-figure">
+								<img class="orbit-image projektbild" src="assets/img/projekt/adrian_roos.JPG" alt="Hylla">
+								<figcaption class="orbit-caption">Hylla - <i>Adrian Roos</i></figcaption>
+								</figure>
+							</li>
+							<li class="orbit-slide">
+								<figure class="orbit-figure projektbild">
+								<img class="orbit-image" src="assets/img/projekt/marcus_nordstrom_1.jpg" alt="Högtalarstativ">
+								<figcaption class="orbit-caption">Högtalarstativ - <i>Marcus Nordström</i></figcaption>
+								</figure>
+							</li>
+							<li class="orbit-slide">
+								<figure class="orbit-figure">
+								<img class="orbit-image projektbild" src="assets/img/projekt/marcus_nordstrom_4.jpg" alt="Soffbord">
+								<figcaption class="orbit-caption">Soffbord - <i>Marcus Nordström</i></figcaption>
+								</figure>
+							</li>
+							<li class="orbit-slide">
+								<figure class="orbit-figure">
+								<img class="orbit-image projektbild" src="assets/img/projekt/walter_rehn.jpg" alt="Skrin">
+								<figcaption class="orbit-caption">Skrin - <i>Walter Rehn</i></figcaption>
+								</figure>
+							</li>
+							<li class="orbit-slide">
+								<figure class="orbit-figure">
+								<img class="orbit-image projektbild" src="assets/img/projekt/marcus_nordstrom_3.jpg" alt="Skrivbord">
+								<figcaption class="orbit-caption">Skrivbord - <i>Marcus Nordström</i></figcaption>
+								</figure>
+							</li>
+						</ul>
+					</div>
+				</div>
 			</div>
-    	<ul class="orbit-container">
-      		<li class="is-active orbit-slide">
-        		<figure class="orbit-figure">
-          		<img class="orbit-image" src="assets/img/projekt/henrik_hillner.jpg" alt="Pajkatapult">
-				<figcaption class="orbit-caption">Pajkatapult - <i>Henrik Hillner</i></figcaption>
-        		</figure>
-      		</li>
-      		<li class="orbit-slide">
-        		<figure class="orbit-figure">
-          		<img class="orbit-image" src="assets/img/projekt/adrian_roos.JPG" alt="Hylla">
-				<figcaption class="orbit-caption">Hylla - <i>Adrian Roos</i></figcaption>
-        		</figure>
-      		</li>
-      		<li class="orbit-slide">
-        		<figure class="orbit-figure">
-          		<img class="orbit-image" src="assets/img/projekt/marcus_nordstrom_1.jpg" alt="Högtalarstativ">
-				<figcaption class="orbit-caption">Högtalarstativ - <i>Marcus Nordström</i></figcaption>
-        		</figure>
-      		</li>
-      		<li class="orbit-slide">
-        		<figure class="orbit-figure">
-          		<img class="orbit-image" src="assets/img/projekt/marcus_nordstrom_4.jpg" alt="Soffbord">
-				<figcaption class="orbit-caption">Soffbord - <i>Marcus Nordström</i></figcaption>
-        		</figure>
-      		</li>
-      		<li class="orbit-slide">
-        		<figure class="orbit-figure">
-          		<img class="orbit-image" src="assets/img/projekt/marcus_nordstrom_4.jpg" alt="Skrin">
-				<figcaption class="orbit-caption">Skrin - <i>Walter Rehn</i></figcaption>
-        		</figure>
-      		</li>
-    	</ul>
-  		</div>
-  		<nav class="orbit-bullets">
-			<button class="is-active" data-slide="0"><span class="show-for-sr">First slide details.</span><span class="show-for-sr">Current Slide</span></button>
-			<button data-slide="1"><span class="show-for-sr">Second slide details.</span></button>
-			<button data-slide="2"><span class="show-for-sr">Third slide details.</span></button>
-			<button data-slide="3"><span class="show-for-sr">Fourth slide details.</span></button>
-  		</nav>
 		</div>
-		<div class="solid-bar"></div>
 	</div>
 </div>
 </div>
