@@ -1,8 +1,8 @@
 <?php
 return [
     '@class' => 'Grav\\Common\\Config\\CompiledConfig',
-    'timestamp' => 1556141606,
-    'checksum' => 'c4947fab16864041a3724b358883f9bd',
+    'timestamp' => 1556143875,
+    'checksum' => '5919d83833077ef101d69f0dcb0390f5',
     'files' => [
         'user/config' => [
             'backups' => [
@@ -31,7 +31,7 @@ return [
             ],
             'system' => [
                 'file' => 'user/config/system.yaml',
-                'modified' => 1556141604
+                'modified' => 1556143875
             ]
         ],
         'system/config' => [
@@ -57,7 +57,7 @@ return [
             ],
             'system' => [
                 'file' => 'system/config/system.yaml',
-                'modified' => 1556141593
+                'modified' => 1556141620
             ]
         ],
         'user/plugins' => [
@@ -84,6 +84,10 @@ return [
             'plugins/image-collage' => [
                 'file' => 'user/plugins/image-collage/image-collage.yaml',
                 'modified' => 1556141075
+            ],
+            'plugins/image-captions' => [
+                'file' => 'user/plugins/image-captions/image-captions.yaml',
+                'modified' => 1556143685
             ],
             'plugins/form' => [
                 'file' => 'user/plugins/form/form.yaml',
@@ -214,6 +218,14 @@ return [
                 'column' => 2,
                 'border_size' => 10,
                 'image_width' => 900
+            ],
+            'image-captions' => [
+                'enabled' => true,
+                'built_in_css' => true,
+                'entire_page' => false,
+                'scope' => 'img.caption',
+                'figure_class' => 'image-caption',
+                'figcaption_class' => NULL
             ],
             'form' => [
                 'enabled' => true,

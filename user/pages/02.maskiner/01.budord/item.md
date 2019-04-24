@@ -1,5 +1,3 @@
-#Budord
-
 Här nedan följer några grundregler man ska tänka på när man använder någon av de större maskinerna i Bölden:
 
 - Tänk före du gör

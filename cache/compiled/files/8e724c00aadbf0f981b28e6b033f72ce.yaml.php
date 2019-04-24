@@ -2,7 +2,7 @@
 return [
     '@class' => 'Grav\\Common\\File\\CompiledYamlFile',
     'filename' => '/http/bolden.tf.fi/system/config/system.yaml',
-    'modified' => 1556141593,
+    'modified' => 1556141620,
     'data' => [
         'absolute_urls' => false,
         'timezone' => '',

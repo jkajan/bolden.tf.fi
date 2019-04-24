@@ -2,7 +2,7 @@
 return [
     '@class' => 'Grav\\Common\\File\\CompiledYamlFile',
     'filename' => 'themes://hypertext/hypertext.yaml',
-    'modified' => 1556137294,
+    'modified' => 1556143598,
     'data' => [
         'allowCSS' => 0,
         'allowJS' => 0,
