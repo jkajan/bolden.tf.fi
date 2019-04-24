@@ -1,0 +1,11 @@
+state: enabled
+email: bodel@tf.fi
+fullname: Bödel
+title: Bödel
+access:
+  admin:
+    login: true
+    super: true
+  site:
+    login: true
+hashed_password: $2y$10$bGQnqsYugciqyuclj3wzOuLO4nc/R3UXXh6TcXF/tzM12UsDphs/C
